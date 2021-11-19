@@ -15,7 +15,7 @@
     margin: 50px 30px;
   }
   
-  #nav {
+  .nav {
     display: inline-block;
     width: 98vw;
     border-radius: 5px;
@@ -27,7 +27,7 @@
     background-color: #fff5f8;
   }
   
-  #quizBody {
+  .codingBody {
     text-align: center;
     padding: 12vh;
   }
@@ -62,7 +62,7 @@
     background-color: #413ef5;
   }
   
-  #quiz {
+  .coding {
     text-align: center;
   }
   
