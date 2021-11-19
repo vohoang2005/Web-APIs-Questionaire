@@ -27,7 +27,11 @@
     background-color: #fff5f8;
   }
   
+<<<<<<< HEAD
   .introbody {
+=======
+  .codingBody {
+>>>>>>> 6d25013a74d2984a27e5784d8a1c023cf4a3cc52
     text-align: center;
     padding: 12vh;
   }
@@ -62,6 +66,13 @@
     background-color: #413ef5;
   }
   
+<<<<<<< HEAD
   .intro {
     text-align: center;
   }
+=======
+  .coding {
+    text-align: center;
+  }
+  
+>>>>>>> 6d25013a74d2984a27e5784d8a1c023cf4a3cc52
