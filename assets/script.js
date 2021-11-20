@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-var questionBank = [
+var questions = [
     {   
         question: "How does a WHILE loop start?",
         selection: ["while i = 1 to 10", "while (i <= 10; i++)", "while (var i = 0; i = 10; i++)", "while (i <= 10)"],
@@ -57,29 +56,32 @@ var questionBank = [
     }
 
 ];
-=======
+
+var timerDisplay = document.querySelector(".timer");
+var question = document.querySelector("#question");
+
 //setting the numerical variables for the functions.. scores and timers.. 
 var score = 0;
 var currentQuestion = -1;
 var timeLeft = 0;
 var timer;
+var q = 0;
 
 //starts the countdown timer once user clicks the 'start' button
 function start() {
 
-    timeLeft = 75;
-    document.getElementById("timeLeft").innerHTML = timeLeft;
+	timeLeft = 75;
+	document.getElementById("timeLeft").innerHTML = timeLeft;
 
-    timer = setInterval(function() {
-        timeLeft--;
-        document.getElementById("timeLeft").innerHTML = timeLeft;
-        //proceed to oend the game function when timer is below 0 at any time
-        if (timeLeft <= 0) {
-            clearInterval(timer);
-            endGame();
-        }
-    }, 1000);
+	timer = setInterval(function() {
+			timeLeft--;
+			document.getElementById("timeLeft").innerHTML = timeLeft;
+			//proceed to end the game function when timer is below 0 at any time
+			if (timeLeft === 0 || q >= questions.length) {
+					clearInterval(timer);
+					gameOver(); 
+			}
+	}, 1000);
 
-    next();
+	next();
 }
->>>>>>> 6d25013a74d2984a27e5784d8a1c023cf4a3cc52
