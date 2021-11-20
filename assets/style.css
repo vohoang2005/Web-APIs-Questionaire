@@ -1,68 +1,58 @@
-/* setting the box sizing style */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .right {
-    float: right;
-    margin: 50px 30px;
-  }
-  
-  .left {
-    float: left;
-    margin: 50px 30px;
-  }
-  
-  .nav {
-    display: inline-block;
-    width: 98vw;
-    border-radius: 5px;
-    margin: 6px;
-  }
-  
-  body {
-    font-family: 'Roboto Slab', arial;
-    background-color: #fff5f8;
-  }
-  
-  .codingBody {
-    text-align: center;
-    padding: 12vh;
-  }
-  
-  h1 {
-    color: #087a11;
-    font-family: cursive;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  h3 {
-    margin: 2%;
-  }
-  
-  button {
-    border: none;
-    background-color: #be3b3b;
-    color: white;
-    border-radius: 5px;
-    padding: 20px 32px 20px 32px;
-    font-size: 26px;
-    font-family: 'Roboto Slab', arial;
-    margin: 2%;
-  }
-  
-  button:hover {
-    transition-duration: 0.4s;
-    background-color: #413ef5;
-  }
-  
-  .coding {
-    text-align: center;
-  }
-  
+/* Style View Highscores and Time. */
+.viewscore {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.Timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+h1 {
+  color: #087a11;
+  font-family: cursive;
+}
+
+
+/* Style the Intro */
+.introsection{
+  margin: 100px auto 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.feedback {
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: grey;
+  border-top: 2px solid lightgray;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.Timer:hover {
+  color: blue;
+}
+
+.hide {
+  display: none;
+}
+
+.choices button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
