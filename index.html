@@ -4,43 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coding Quiz Challenge!</title>
+  <title>Coding Quiz</title>
   <link rel="stylesheet" href="./assets/style.css">
 </head>
-<!-- Creating Viewscore and Timer Navigation -->
 <body>
-  <div class="viewscore"><a href="./score.html">View Highscores</a></div>
-  <div class="Timer">Time: <span id="time">0</span></div>
-
-<!-- Creating the Name, Intro, and Start Button -->
-  <div class="introsection">
-    <div id="startintro" class="start">
-    <h1>Coding Quiz Challenge!</h1>
-    <p>Try to answer the following code-related questions within 
+<div id="nav">
+  <!-- view scores link on the top left of nav bar-->
+  <div class="viewscore"><a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+  </div>
+  <!-- countdown timer on the top right of nav bar-->
+  <div class="timer"><h4>Time: <span id="timeLeft">0</span></h4>
+  </div>
+</div>
+<!--main body of quiz-->
+<div id="Intro">
+  <div id="Body">      
+    <h1>   
+      Coding Quiz Challenge!
+    </h1>
+    <p>
+      Try to answer the following code-related questions within 
       the time limit. Keep in mind that incorrect answers will 
-      penalize your score/time by ten seconds!   
+      penalize your score/time by ten seconds!     
     </p>
-    <button id="start">Start Quiz</button>
-    </div>
-<!-- Creating the questions body -->
-  <div id="questions" class="hide">
-    <h2 id="thequestions"></h2>
-    <div id="choices" class="choices"></div>
+    <button id="start">Start Quiz!</button>
   </div>
-
-<!-- Creating the ending body -->
-  <div id="end-screen" class="hide">
-    <h2>Finish!</h2>
-    <p>Your Final Score is <span id="final-score"></span>.</p>
-    <p>Enter initials: <input type="text" id="initials" max="5" />
-      <button id="submit">Submit</button>
-    </p>
-  </div>
-<!-- Creating the feedback (if answer is right or wrong) -->
-  <div id="feedback" class="feedback hide"></div>
-  </div>
-<!-- linked to javascript -->
-  <script src="./assets/script.js"></script>
-  <script src="./assets/questions.js"></script>
+</div>
+    <script src = "./assets/script.js"></script>
+    <script src = "./assets/questions.js"></script>
 </body>
 </html>
