@@ -80,14 +80,14 @@ document.getElementById("timeLeft").innerHTML = timeLeft;
 
 var quizContent = `
 <h1>
-  Coding Quiz Challenge
+  Coding Quiz Challenge!
 </h1>
 <h3>
 Try to answer the following code-related questions within 
 the time limit. Keep in mind that incorrect answers will 
 penalize your score/time by ten seconds!        
 </h3>
-<button id="start">Start!</button>`;
+<button onclick="start()">Start!</button>`;
 
 document.getElementById("Body").innerHTML = quizContent;
 }
