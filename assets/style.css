@@ -76,11 +76,6 @@ li {
   list-style: decimal inside none;
 }
 
-li:nth-child(odd) {
-  background-color: #dfdae7;
-}
-
-
 .hide {
   display: none;
 }
