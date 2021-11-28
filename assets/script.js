@@ -69,13 +69,13 @@ function questionClick() {
     }
     // display new time on page
     timerEl.textContent = time;
-    feedbackEl.textContent = "Wrong!";
+    feedbackEl.textContent = "Incorrect!";
     feedbackEl.style.color = "red";
-    feedbackEl.style.fontSize = "400%";
+    feedbackEl.style.fontSize = "300%";
   } else {
     feedbackEl.textContent = "Correct!";
     feedbackEl.style.color = "green";
-    feedbackEl.style.fontSize = "400%";
+    feedbackEl.style.fontSize = "300%";
   }
 
   // flash right/wrong feedback
