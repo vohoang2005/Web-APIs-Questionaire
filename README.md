@@ -29,6 +29,10 @@ THEN I can save my initials and score
 
 ### Below is a preview of a video to see how it works!
 
+
+https://user-images.githubusercontent.com/37889335/168648039-b4bfcc58-5097-497d-adcd-2285b27a0bc0.mp4
+
+
 ### Fun part of this quiz is that it is upgraded! You have 165 seconds to finish the Quiz, any wrong answer will deduct 10 seconds from the clock! Your Quiz is finish once your answer all the questions or when the time hit 0! You can also Record your Initial at the end of the Quiz! And you can also compare the top ten highscores!
 
 # Link: https://vohoang2005.github.io/Web-APIs-Questionaire/
